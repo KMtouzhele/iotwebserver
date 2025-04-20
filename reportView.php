@@ -1,6 +1,12 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+echo '<div style="margin-bottom: 15px;">
+    <a href="http://iotserver.com/canvasjs3.6/examples/02-line-spline-step-line-charts/canvasjs.php" >
+        View Graph
+    </a>
+</div>';
+
 $json = file_get_contents('http://iotserver.com/reportJSON.php');
 $json2 = file_get_contents('http://iotserver.com/thresholdJSON.php');
 
